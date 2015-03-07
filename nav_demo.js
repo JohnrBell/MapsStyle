@@ -12,7 +12,7 @@ jQuery(document).ready(function($){
 		map_options = defineMap()
 		map.setOptions(map_options)
 	});
-	$('input[type=range]').on('mousemove click',function() { 
+	$('input[type=range]').on('click',function() { 
 	  $(this).next().text($(this).val())
 		map_options = defineMap()
 		map.setOptions(map_options)
