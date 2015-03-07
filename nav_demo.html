@@ -1,0 +1,53 @@
+<html>
+  <head>
+  <link rel="stylesheet" type="text/css" href="nav_demo.css">
+  </head>
+  <body>
+
+
+	<div id="picker">
+		Water Color: <input type="text" id="water-color" value="#000000"/><br>
+		<!-- Water Saturation:<br><input type="range" id="water-sat" min="-100" max="100" value="0"><label></label><br> -->
+		Water Brightness:<br><input type="range" id="water-bri" min="-100" max="100" value="17"><label></label><br>
+		<hr>
+		Landscape Color: <input type="text" id="landscape-color" value="#000000"/><br>
+		<!-- Landscape Saturation:<br><input type="range" id="landscape-sat" min="-100" max="100" value="0"><label></label><br> -->
+		Landscape Brightness:<br><input type="range" id="landscape-bri" min="-100" max="100" value="50"><label></label><br>
+		<hr>
+		Highway Color: <input type="text" id="highway-color" value="#4DBBE9"/><br>
+		<!-- Highway Saturation:<br><input type="range" id="highway-sat" min="-100" max="100" value="0"><label></label><br> -->
+		Highway Brightness:<br><input type="range" id="highway-bri" min="-100" max="100" value="17"><label></label><br>
+		<hr>
+		Art-Road Color: <input type="text" id="art-color" value="#000000"/><br>
+		<!-- Highway Saturation:<br><input type="range" id="highway-sat" min="-100" max="100" value="0"><label></label><br> -->
+		Art-Road Brightness:<br><input type="range" id="art-bri" min="-100" max="100" value="16"><label></label><br>
+		<hr>
+		Local Road Color: <input type="text" id="local-color" value="#000000"/><br>
+		<!-- Highway Saturation:<br><input type="range" id="highway-sat" min="-100" max="100" value="0"><label></label><br> -->
+		Local Road Brightness:<br><input type="range" id="local-bri" min="-100" max="100" value="17"><label></label><br>
+		<hr>
+		POI Color: <input type="text" id="poi-color" value="#000000"/><br>
+		<!-- Highway Saturation:<br><input type="range" id="highway-sat" min="-100" max="100" value="0"><label></label><br> -->
+		POI Brightness:<br><input type="range" id="poi-bri" min="-100" max="100" value="24"><label></label><br>
+		<hr>
+		Text Outline Color: <input type="text" id="text-color" value="#000000"/><br>
+		Text Outline Brightness:<br><input type="range" id="text-bri" min="-100" max="100" value="17"><label></label><br>
+		<hr>
+		Text Fill Color: <input type="text" id="textfill-color" value="#ffffff"/><br>
+		Text Fill Brightness:<br><input type="range" id="textfill-bri" min="-100" max="100" value="40"><label></label><br>
+		<br>
+		<div id="slider">CLICK TO EDIT</div>
+
+	</div>
+	<section id="cd-google-map">
+	<!-- #google-container will contain the map  -->
+	<div id="container"></div>
+	
+	</section>
+
+<script src="jquery-min.js"></script>
+<script src="nav_demo.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key="+ENV[MAPS_API]></script>
+
+  </body>
+</html>
