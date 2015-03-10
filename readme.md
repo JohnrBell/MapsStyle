@@ -1,5 +1,7 @@
 ## Exploring Dynamically Styling Google Maps.
 
+Live: http://johnrbell.github.io/MapsStyle/
+
 Basic layout is HTML and some CSS.
 
 Used jQuery to grab values from the left sidebar.
